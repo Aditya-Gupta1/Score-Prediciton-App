@@ -12,7 +12,7 @@ It uses **Linear Regression** to predict the scores.
 
 st.header('Input hours studied')
 
-hours = st.slider('hours', 1.0, 24.0, 5.0)
+hours = st.slider('hours', 1.0, 9.0, 5.0)
 
 model = joblib.load('linear_regression_model.sav')
 
