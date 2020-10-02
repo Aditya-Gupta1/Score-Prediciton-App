@@ -21,3 +21,5 @@ score = model.predict([[hours]])
 st.header("Predicted Score")
 
 st.write(f'{score[0]}')
+
+st.write('\n\n\n\n\n                                       created by- Aditya Gupta')
