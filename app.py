@@ -1,5 +1,7 @@
 import joblib
 import streamlit as st
+from sklearn.linear_model import LinearRegression
+import sklearn
 
 st.write('''
 # Scores Prediction App
